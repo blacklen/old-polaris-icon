@@ -28,7 +28,6 @@ function IconGridItem({
   icon,
 }) {
   const { id } = icon;
-  console.log({icon})
 
   return (
     <li key={id} className='icon'>
